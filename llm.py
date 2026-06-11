@@ -28,10 +28,11 @@ Context:
 {context}
 
 Instructions:
-- Use the context to answer the question.
-- Summarize and explain in your own words.
-- Do not copy large portions of the context.
-- If the answer is not present, say so.
+- Use the provided context to answer the question.
+- Combine information from multiple sources when needed.
+- For rankings, lists, or comparisons, synthesize the information into a complete answer.
+- Be clear, concise, and informative.
+- If information is incomplete, provide the best answer possible and mention any limitations.
 """
             }
         ],

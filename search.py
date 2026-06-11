@@ -15,3 +15,23 @@ def web_search(query):
     )
 
     return results
+
+def format_results(results):
+
+    context = ""
+
+    for item in results["results"]:
+
+        context += f"""
+Title: {item.get('title', '')}
+
+Content:
+{item.get('content', '')}
+
+URL:
+{item.get('url', '')}
+
+-----------------------
+"""
+
+    return context
